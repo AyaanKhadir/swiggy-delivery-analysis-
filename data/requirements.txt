@@ -1,0 +1,7 @@
+pandas
+numpy
+seaborn
+matplotlib
+scipy
+gradio
+plotly                           # For extra interactive plots
