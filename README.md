@@ -1,27 +1,26 @@
-# Swiggy Delivery & Restaurant Analysis Dashboard
+---
+title: Swiggy Delivery Analysis Dashboard
+emoji: 🍛
+colorFrom: red
+colorTo: orange
+sdk: gradio
+sdk_version: 4.44.0
+app_file: app.py
+pinned: false
+---
+# 🍛 Swiggy Delivery Analysis Dashboard
 
-An interactive Exploratory Data Analysis (EDA) dashboard for Swiggy restaurant and delivery insights using real data.
+An interactive Exploratory Data Analysis (EDA) dashboard for simulated Swiggy food delivery orders.
 
-## 🚀 Live Demo
-[View the interactive app on Hugging Face Spaces](https://huggingface.co/spaces/YOUR_USERNAME/swiggy-delivery-analysis)  
-*(Link will work after deployment in later steps)*
+## Features
+- View sample data and key statistics
+- Late delivery probability by city
+- Correlation between delivery time and customer rating
+- Interactive plots: histograms, scatter plots, box plots, pie charts, and more
 
-## 📊 Dataset
-- Real dataset from Kaggle: [Swiggy Restaurants Dataset (~1.5 Lakh entries)](https://www.kaggle.com/datasets/rrkcoder/swiggy-restaurants-dataset)
-- Contains restaurant details across Indian cities: cuisine, rating, average price, area, etc.
+## Dataset
+Simulated dataset of 30 orders with preparation time, distance, meal price, ratings, and modeled delivery time.
 
-## ✨ Features
-- Clean, interactive data tables
-- Key statistics and insights (average prices, ratings, popular cuisines)
-- Multiple visualizations (histograms, bar charts, box plots, scatter plots, pie charts)
-- Additional interactive plots powered by Plotly
-- Bonus: Simulated delivery time analysis with late delivery probability
+Click **"Run Full Analysis"** to generate all insights and visualizations!
 
-## 🛠️ Tech Stack
-- Python
-- Pandas, NumPy
-- Seaborn, Matplotlib
-- Plotly (interactive plots)
-- Gradio (web interface)
-
-## 📁 Project Structure
+Made with ❤️ using Gradio and Plotly.
